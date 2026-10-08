@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Danny Stanfield
 
-You can use the [editor on GitHub](https://github.com/Dstanfield-Creator/Dstanfield-Creator.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**Junior SecOps Analyst · Perth, Western Australia**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+SIEM and EDR triage, detection engineering, Zero Trust operations, and a Proxmox homelab that gets documented as it gets built.
 
-### Markdown
+- GitHub: [github.com/Dstanfield-Creator](https://github.com/Dstanfield-Creator)
+- LinkedIn: [linkedin.com/in/danny-stanfield](https://linkedin.com/in/danny-stanfield)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Projects and homelab
 
-```markdown
-Syntax highlighted code block
+Fifteen write-ups with designs, build notes, lessons learned and the scripts in use: [github.com/Dstanfield-Creator/projects](https://github.com/Dstanfield-Creator/projects)
 
-# Header 1
-## Header 2
-### Header 3
+- [Proxmox Lab Platform](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-lab-platform): the single-node host behind everything below
+- [Ludus Cyber Range](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/ludus-cyber-range): reproducible Active Directory attack and detection range
+- [Proxmox Backup Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-backup-server): built after root-causing a month of silent backup failures
+- [Paperclip AI Agents](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/paperclip-ai-agents): AI agents with least-privilege access to the lab
+- [Tailscale Remote Access](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/tailscale-remote-access): zero-trust access with no port-forwards
+- [Lab tools](https://github.com/Dstanfield-Creator/projects/tree/master/tools): lab-up/lab-down, lab-ssh-check, fw-deadman
 
-- Bulleted
-- List
+## Knowledge base
 
-1. Numbered
-2. List
+- [cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources): techniques, tools, labs and detection engineering notes
+- [guides](https://github.com/Dstanfield-Creator/guides): runbooks, checklists and troubleshooting guides
+- [server-administration](https://github.com/Dstanfield-Creator/server-administration): Linux and Windows hardening, monitoring, Proxmox reference
+- [cloud-infrastructure](https://github.com/Dstanfield-Creator/cloud-infrastructure): Terraform, compose stacks, cloud-init, CLI reference
+- [general-it](https://github.com/Dstanfield-Creator/general-it): troubleshooting method, joiner-leaver checklists, change management
+- [PowerShell-Scripts](https://github.com/Dstanfield-Creator/Powershell-Scripts): Active Directory GUI tooling
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dstanfield-Creator/Dstanfield-Creator.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Last updated October 2026
