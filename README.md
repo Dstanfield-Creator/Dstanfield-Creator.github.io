@@ -9,7 +9,7 @@ SIEM and EDR triage, detection engineering, Zero Trust operations, and a Proxmox
 
 ## Flagship repositories
 
-- [detections](https://github.com/Dstanfield-Creator/detections) - detection-as-code: Sigma rules mapped to MITRE ATT&CK, validated in CI
+- [detections](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/detections) - detection-as-code: Sigma rules mapped to MITRE ATT&CK, validated in CI
 - [lab-ops](https://github.com/Dstanfield-Creator/lab-ops) - the homelab as code and in prose: Ansible, Compose, Terraform, lab scripts and the build write-ups
 - [network](https://github.com/Dstanfield-Creator/network) - zero-trust access, campus design, firewall tooling and the dead-man switch
 
@@ -17,26 +17,23 @@ SIEM and EDR triage, detection engineering, Zero Trust operations, and a Proxmox
 
 ## 🏢 Work by Department
 
-Seven departments, each with its own repositories. Nothing lives outside its department.
+Six departments, each with its own repositories. Nothing lives outside its department.
 
 | Department | Repositories |
 |---|---|
-| 🛡️ Security Operations | detections, cyber-resources |
+| 🛡️ Security Operations | cyber-resources (detections/, monitoring/, reference, labs) |
 | 🖥️ Infrastructure & Platform | lab-ops, server-administration |
 | 🌐 Network | network |
 | ☁️ Cloud | cloud-infrastructure |
 | 🤖 AI & Automation | ai-automation |
-| 📈 Monitoring & Observability | monitoring |
 | 🔧 General IT & Service Desk | general-it, Powershell-Scripts |
 
 ### 🛡️ Security Operations
 
-**[detections](https://github.com/Dstanfield-Creator/detections)** - Sigma rules for a home SOC lab, each mapped to MITRE ATT&CK and structurally validated in CI
+**[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - detection-as-code, monitoring, a technique and tool reference written from the defender's side, and the lab ranges it is practised in
 
-- [Rules](https://github.com/Dstanfield-Creator/detections/tree/main/rules) - Windows (6), Linux (3), web (2), network (1), cloud (1) · [How rules are tested](https://github.com/Dstanfield-Creator/detections/blob/main/docs/testing.md) · [Windows AD Logging Baseline for Detection](https://github.com/Dstanfield-Creator/detections/blob/main/docs/windows-ad-logging-baseline-for-detection.md) - Advanced Audit Policy, Sysmon, forwarding, attack-to-event map
-
-**[cyber-resources](https://github.com/Dstanfield-Creator/cyber-resources)** - techniques, tools, labs and research written from the defender's side
-
+- **Detections** ([detections/](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/detections)): [Rules](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/detections/rules) - Windows (6), Linux (3), web (2), network (1), cloud (1), each mapped to MITRE ATT&CK and structurally validated in CI · [How rules are tested](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/detections/docs/testing.md) · [Windows AD Logging Baseline for Detection](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/detections/docs/windows-ad-logging-baseline-for-detection.md) - Advanced Audit Policy, Sysmon, forwarding, attack-to-event map
+- **Monitoring & Observability** ([monitoring/](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring)): [MyDashboard](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/mydashboard) - Prometheus + Grafana lab health dashboard design with alerts derived from real incidents · [Monitoring Stack (Compose)](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/compose/monitoring-stack) - Prometheus, Alertmanager, Grafana, node_exporter, cAdvisor, blackbox SSH probes, starter alerts · [Lab Monitoring (Compose)](https://github.com/Dstanfield-Creator/cyber-resources/tree/master/monitoring/compose/lab-monitoring) - the version deployed in the lab · [Prometheus node_exporter Setup](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/monitoring/docs/prometheus-node-exporter-setup.md) - sandboxed unit, textfile collector, scrape config, useful PromQL
 - **Defensive operations:** [Detection Engineering](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/detection-engineering.md) · [Threat Hunting](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/threat-hunting.md) · [Incident Response](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/incident-response.md) · [SIEM Configuration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/siem-configuration.md) · [Intrusion Detection](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/intrusion-detection.md) · [Forensics](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/forensics.md) · [Honeypots](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/honeypots.md) · [Firewall Configuration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/firewall-configuration.md) · [Network Segmentation](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/network-segmentation.md)
 - **Attack write-ups:** [Brute Force](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/brute-force-attacks.md) · [DoS](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/dos-attacks.md) · [DDoS](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/ddos-attacks.md) · [Phishing](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/phishing.md) · [Social Engineering](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/social-engineering.md) · [Lateral Movement](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/lateral-movement.md) · [Persistence](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/persistence.md) · [Privilege Escalation](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/privilege-escalation.md) · [Web Application Attacks](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/web-application-attacks.md) · [Cross-Site Scripting](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/cross-site-scripting.md) · [File Inclusion](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/file-inclusion.md) · [Network Protocol Attacks](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/docs/network-protocol-attacks.md)
 - **Techniques:** [Enumeration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/enumeration.md) · [Port Scanning](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/port-scanning.md) · [Network Scanning](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/network-scanning.md) · [Service Discovery](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/service-discovery.md) · [DNS Enumeration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/dns-enumeration.md) · [Web App Enumeration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/web-application-enumeration.md) · [Vulnerability Scanning](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/vulnerability-scanning.md) · [OSINT](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/osint.md) · [Online Password Attacks](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/password-attacks-online.md) · [Password Cracking](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/password-cracking.md) · [Authentication Bypass](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/authentication-bypass.md) · [SQL Injection](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/sql-injection.md) · [Command Injection](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/command-injection.md) · [Reverse Shells](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/reverse-shells.md) · [Post-Exploitation](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/post-exploitation.md) · [C2 Communication](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/c2-communication.md) · [Exfiltration](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/exfiltration.md) · [Protocol Analysis](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/protocol-analysis.md) · [Log Analysis](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/log-analysis.md) · [Social Engineering](https://github.com/Dstanfield-Creator/cyber-resources/blob/master/techniques/social-engineering.md)
@@ -86,14 +83,6 @@ Seven departments, each with its own repositories. Nothing lives outside its dep
 
 - [Paperclip AI Agents](https://github.com/Dstanfield-Creator/ai-automation/tree/main/paperclip-ai-agents) - self-hosted agent platform where agents build and retire VMs through least-privilege Proxmox/PBS tokens, with protected VMs and a hardened host
 - n8n workflow automation for lab notifications, log enrichment and scheduled checks runs on the [Docker Services Host](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/docker-services-host) and is defined in the [lab-ops Compose services](https://github.com/Dstanfield-Creator/lab-ops/tree/main/compose/services)
-
-### 📈 Monitoring & Observability
-
-**[monitoring](https://github.com/Dstanfield-Creator/monitoring)** - Prometheus, Grafana and the alerts derived from real incidents
-
-- [MyDashboard](https://github.com/Dstanfield-Creator/monitoring/tree/main/mydashboard) - Prometheus + Grafana lab health dashboard design with alerts derived from real incidents
-- [Monitoring Stack (Compose)](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/monitoring-stack) - Prometheus, Alertmanager, Grafana, node_exporter, cAdvisor, blackbox SSH probes, starter alerts · [Lab Monitoring (Compose)](https://github.com/Dstanfield-Creator/monitoring/tree/main/compose/lab-monitoring) - the version deployed in the lab
-- [Prometheus node_exporter Setup](https://github.com/Dstanfield-Creator/monitoring/blob/main/docs/prometheus-node-exporter-setup.md) - sandboxed unit, textfile collector, scrape config, useful PromQL
 
 ### 🔧 General IT & Service Desk
 
