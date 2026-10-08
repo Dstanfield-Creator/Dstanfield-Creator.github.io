@@ -104,6 +104,11 @@ Each project is documented in its own folder of the **[projects](https://github.
 - Professional case study: [Network Optimisation & Security Enhancement](https://github.com/Dstanfield-Creator/projects/tree/master/infrastructure/network-security-enhancement) (assessment, Fortinet, Veeam/Acronis, PowerShell automation)
 
 
+## Write-ups
+
+- [The UFW rule was correct and still locked me out](https://dstanfield-creator.github.io/writeups/ufw-lockout.html) - a conntrack lesson and the dead-man switch that saved the box
+- [A backup job that failed silently for a month](https://dstanfield-creator.github.io/writeups/silent-backup-failure.html) - a full root disk, a Proxmox Backup Server rebuild, and alerting on the real failure
+
 ---
 
 Last updated October 2026
