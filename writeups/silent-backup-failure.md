@@ -34,4 +34,4 @@ One gotcha cost an hour: **a PBS token's privileges are capped by its owning use
 - A monitoring rule alerts when any VM's newest backup is older than eight days, which is the exact failure I missed.
 - A rule alerts when `local` passes 85 percent, which is what filled up in the first place.
 
-Those two alerts are the point. The backup target moving was necessary, but the thing that actually failed was that a weekly job could die every week and stay silent. The full write-up is in the [Proxmox Backup Server](https://github.com/Dstanfield-Creator/projects/tree/master/homelab/proxmox-backup-server) project.
+Those two alerts are the point. The backup target moving was necessary, but the thing that actually failed was that a weekly job could die every week and stay silent. The full write-up is in the [Proxmox Backup Server](https://github.com/Dstanfield-Creator/lab-ops/tree/main/docs/proxmox-backup-server) project.

@@ -48,4 +48,4 @@ qm guest exec <vmid> -- ufw --force enable
 3. Test from a brand-new SSH session, never the one that made the change.
 4. Only disarm the timer once the new session works. If it fails, do nothing and let the timer roll back.
 
-I wrapped it in a small script, [`fw-deadman`](https://github.com/Dstanfield-Creator/projects/tree/master/tools/firewall-deadman-switch), and wrote it up as a [runbook](https://github.com/Dstanfield-Creator/guides/blob/master/runbooks/remote-firewall-change.md). The rule being correct was never the question. The question was whether I could still get in if it was not.
+I wrapped it in a small script, [`fw-deadman`](https://github.com/Dstanfield-Creator/network/tree/main/firewall/firewall-deadman-switch), and wrote it up as a [runbook](https://github.com/Dstanfield-Creator/network/blob/main/firewall/remote-firewall-change.md). The rule being correct was never the question. The question was whether I could still get in if it was not.
