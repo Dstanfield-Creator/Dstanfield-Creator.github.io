@@ -7,6 +7,12 @@ SIEM and EDR triage, detection engineering, Zero Trust operations, and a Proxmox
 - GitHub: [github.com/Dstanfield-Creator](https://github.com/Dstanfield-Creator)
 - LinkedIn: [linkedin.com/in/danny-stanfield](https://linkedin.com/in/danny-stanfield)
 
+## Flagship repositories
+
+- [detections](https://github.com/Dstanfield-Creator/detections) - detection-as-code: Sigma rules mapped to MITRE ATT&CK, validated in CI
+- [projects](https://github.com/Dstanfield-Creator/projects) - 15 homelab and infrastructure write-ups with diagrams and lessons learned
+- [lab-ops](https://github.com/Dstanfield-Creator/lab-ops) - the homelab as code: Ansible baseline, Compose stacks, Renovate
+
 ---
 
 ## 📚 Knowledge Base
